@@ -3,7 +3,7 @@
 
 import SwiftUI
 
-extension Bundle {
+public extension Bundle {
 
     var releaseVersionNumber: String {
         let version = self.infoDictionary?["CFBundleShortVersionString"] as? String
