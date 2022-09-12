@@ -4,6 +4,8 @@
 2022-09-12
 - Bundle extension ***releaseVersionNumber***
 - Bundle extension ***buildVersionNumber***
+- String extension ***substringBetween*** added
+- Test cases updated
 
 2022-08-09
 - String extension ***capitalizeWords*** added

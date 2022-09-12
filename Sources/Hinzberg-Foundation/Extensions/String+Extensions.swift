@@ -200,6 +200,23 @@ public extension String
         return self
     }
     
+    public func substringBetween(startString:String, endString:String) -> (String)
+    {
+        var source = self
+        
+        if source.caseInsensitiveContains(searchString: startString)
+        {
+            source = source.substringAfter(searchString: startString)
+            if source.caseInsensitiveContains(searchString: endString)
+            {
+                source = source.substringBefore(searchString: endString)
+                return source
+            }
+        }
+        return ""
+    }
+    
+    
     public func removePrefix(_ prefix: String) -> String
     {
         guard self.hasPrefix(prefix) else { return self }
