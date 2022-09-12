@@ -15,4 +15,14 @@ public extension NSDate
         let d = dateStringFormatter.date(from: dateString)!
         self.init(timeInterval:0, since:d)
     }
+    
+    public static func from(year : Int, month : Int, day : Int) -> Date
+    {
+        let calendar = Calendar.current
+        var dateComponents = DateComponents()
+        dateComponents.year = year
+        dateComponents.month = month
+        dateComponents.day = day
+        return calendar.date(from: dateComponents) ?? Date()
+    }
 }

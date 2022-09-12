@@ -6,6 +6,7 @@
 - Bundle extension ***buildVersionNumber***
 - String extension ***substringBetween*** added
 - Array extension ***allMatching*** added
+- Date extension ***from*** added
 - Test cases updated
 
 2022-08-09
