@@ -8,9 +8,9 @@ public protocol RepositoryProtocol {
     
     func getCount() -> Int
     func add( item:RepositoryType ) -> Void
-    func addMany( item:[RepositoryType] ) -> Void
+    func addMany( items:[RepositoryType] ) -> Void
     func remove( item:RepositoryType ) -> Void
-    func removeMany( item:[RepositoryType] ) -> Void
+    func removeMany( items:[RepositoryType] ) -> Void
     func getAll() -> [RepositoryType]
     func get(id:UUID) ->RepositoryType?
     func clear() -> Void
