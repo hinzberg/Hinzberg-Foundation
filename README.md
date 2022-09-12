@@ -1,6 +1,10 @@
 # Hinzberg-Foundation
 ##  A Swift Package - Helper Classes for macOS / iOS (Foundation)
 
+2022-09-12
+- Bundle extension ***releaseVersionNumber***
+- Bundle extension ***buildVersionNumber***
+
 2022-08-09
 - String extension ***capitalizeWords*** added
 - String extension ***firstCharacterUppercase*** added
