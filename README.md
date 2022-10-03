@@ -1,6 +1,10 @@
 # Hinzberg-Foundation
 ##  A Swift Package - Helper Classes for macOS / iOS (Foundation)
 
+2022-10-03
+- New Base Class ***BaseRepositoryItem***
+- String extension ***stringByDecodingHTMLEntities*** added
+
 2022-09-12
 - Bundle extension ***releaseVersionNumber***
 - Bundle extension ***buildVersionNumber***
