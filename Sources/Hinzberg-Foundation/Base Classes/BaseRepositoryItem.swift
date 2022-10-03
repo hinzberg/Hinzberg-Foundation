@@ -4,7 +4,7 @@ import SwiftUI
 open class BaseRepositoryItem : Identifiable, Equatable, ObservableObject {
     
     @Published public var id = UUID()
-    @Published var selected : Bool = false
+    @Published public var selected : Bool = false
     
     public static func == (lhs: BaseRepositoryItem, rhs: BaseRepositoryItem) -> Bool {
         return lhs.id == rhs.id
